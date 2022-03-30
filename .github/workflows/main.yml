@@ -1,4 +1,4 @@
-name: api Build
+name: 동의대 api 제작
 
 on:
   schedule:
