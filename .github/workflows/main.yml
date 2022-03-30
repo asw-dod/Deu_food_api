@@ -1,0 +1,39 @@
+name: api Build
+
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@master
+
+    - name: Set up Node.js
+      uses: actions/setup-node@master
+      with:
+        node-version: 16.x
+
+    - name: Install dependencies
+      run: yarn install
+      
+    - name: Get api and json make
+      run: node index
+      
+    - name: push json file
+      run: | 
+        git add .
+        git diff
+        git config --local user.email ${{secrets.EMAIL}}
+        git config --local user.name ${{secrets.NAME}}
+        git commit -m "Auto JSON update"
+        git push
