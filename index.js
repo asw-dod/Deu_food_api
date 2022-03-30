@@ -54,8 +54,8 @@ async function App() {
     //수덕전
     responce = await axios("https://smart.deu.ac.kr/m/sel_dfood?date=" + Korea_Date1 + "&gubun2=1&gubun1=1")
     json = Object.assign(json, { "suduck": responce.data })
-    
-    fs.writeFileSync('./output/api.json',JSON.stringify(json), 'utf-8')
+
+    fs.writeFileSync('./output/api.json',json, 'utf-8')
 }
 
 App()
