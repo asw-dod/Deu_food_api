@@ -1,11 +1,11 @@
 const axios = require('axios');
-const fs = require('fs')
-const dayjs = require('dayjs')
+const fs = require('fs');
+const dayjs = require('dayjs');
 
 
 async function App() {
     //기본 선언
-    const Korea_Date = dayjs(new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" })).format('YYYY-MM-DD')
+    const Korea_Date = dayjs(new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" })).format('YYYY-MM-DD');
     let json = {}; let json_temp = []; let responce = ""; let data = ""
     try {
         //효민 기숙사
@@ -24,7 +24,7 @@ async function App() {
             "Date": "No data",
         })
     }
-    json = Object.assign(json, { "hyomin": json_temp })
+    json = Object.assign(json, { "hyomin": json_temp });
 
     //초기화
     json_temp = []
@@ -51,20 +51,20 @@ async function App() {
             "Date": "No data",
         })
     }
-    json = Object.assign(json, { "happy": json_temp })
+    json = Object.assign(json, { "happy": json_temp });
 
     //초기화
     json_temp = []
 
     //시간 포맷변경
-    const Korea_Date1 = dayjs(new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" })).format('YYYYMMDD')
+    const Korea_Date1 = dayjs(new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" })).format('YYYYMMDD');
 
     //정보관
-    responce = await axios("https://smart.deu.ac.kr/m/sel_dfood?date=" + Korea_Date1 + "&gubun2=2&gubun1=1")
-    json = Object.assign(json, { "inforamtion": responce.data })
+    responce = await axios("https://smart.deu.ac.kr/m/sel_dfood?date=" + Korea_Date1 + "&gubun2=2&gubun1=1");
+    json = Object.assign(json, { "inforamtion": responce.data });
     //수덕전
-    responce = await axios("https://smart.deu.ac.kr/m/sel_dfood?date=" + Korea_Date1 + "&gubun2=1&gubun1=1")
-    json = Object.assign(json, { "suduck": responce.data })
+    responce = await axios("https://smart.deu.ac.kr/m/sel_dfood?date=" + Korea_Date1 + "&gubun2=1&gubun1=1");
+    json = Object.assign(json, { "suduck": responce.data });
 
     fs.writeFileSync('./output/api.json', JSON.stringify(json), 'utf-8')
 }
