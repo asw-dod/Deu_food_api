@@ -11,7 +11,7 @@ async function App() {
         //효민 기숙사
         responce = await axios("http://dorm.deu.ac.kr/hyomin/food/getWeeklyMenu.kmc?locgbn=DE&sch_date=" + Korea_Date);
         data = responce.data["root"][0].WEEKLYMENU[0];
-        for (let index = 2; index < 8; index++) {
+        for (let index = 0; index < 8; index++) {
             json_temp.push({
                 "Date": data["fo_date" + index],
                 "breakfast": data["fo_menu_mor" + index],
