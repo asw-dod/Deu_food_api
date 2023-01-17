@@ -61,15 +61,16 @@ async function App() {
 
     //정보관
     responce = await axios("https://smart.deu.ac.kr/m/sel_dfood?date=" + Korea_Date1 + "&gubun2=2&gubun1=1");
-    if(responce.data == {}){
-        json = Object.assign(json, { "inforamtion": undefined})
+    if(JSON.stringify(responce.data).indexOf("정보공학관") == -1){
+        json = Object.assign(json, { "inforamtion": null})
+       
     }else{
         json = Object.assign(json, { "inforamtion": responce.data });
     }
     //수덕전
     responce = await axios("https://smart.deu.ac.kr/m/sel_dfood?date=" + Korea_Date1 + "&gubun2=1&gubun1=1");
-    if(responce.data == {}){
-        json = Object.assign(json, { "suduck": undefined})
+    if(JSON.stringify(responce.data).indexOf("수덕전") == -1){
+        json = Object.assign(json, { "suduck": null})
     }else{
         json = Object.assign(json, { "suduck": responce.data });
     }
