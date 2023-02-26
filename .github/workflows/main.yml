@@ -34,7 +34,7 @@ jobs:
       
     - name: push json file
       run: | 
-        git add .
+        git add *
         git diff
         git config --local user.email ${{secrets.EMAIL}}
         git config --local user.name ${{secrets.NAME}}
