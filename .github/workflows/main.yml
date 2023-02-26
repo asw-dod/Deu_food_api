@@ -34,6 +34,7 @@ jobs:
       
     - name: push json file
       run: | 
+        git config advice.addIgnoredFile false
         git add *
         git diff
         git config --local user.email ${{secrets.EMAIL}}
