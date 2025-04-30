@@ -2,80 +2,93 @@ const axios = require('axios');
 const fs = require('fs');
 const dayjs = require('dayjs');
 
-
 async function App() {
-    //기본 선언
-    const Korea_Date = dayjs(new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" })).format('YYYY-MM-DD');
-    let json = {}; let json_temp = []; let responce = ""; let data = ""
-    try {
-        //효민 기숙사
-        responce = await axios("http://dorm.deu.ac.kr/hyomin/food/getWeeklyMenu.kmc?locgbn=DE&sch_date=" + Korea_Date);
-        data = responce.data["root"][0].WEEKLYMENU[0];
-        for (let index = 0; index < 8; index++) {
-            json_temp.push({
-                "Date": data["fo_date" + index],
-                "breakfast": data["fo_menu_mor" + index],
-                "lunch": data["fo_menu_lun" + index],
-                "dinner": data["fo_menu_eve" + index]
-            })
-        }
-    } catch (error) {
-        json_temp.push({
-            "Date": "No data",
-        })
-    }
-    json = Object.assign(json, { "hyomin": json_temp });
+    // 한국 시간 기준 오늘 날짜 객체
+    const baseDate = dayjs(new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" }));
 
-    //초기화
-    json_temp = []
+    // 오늘부터 7일간의 날짜 배열 (YYYY-MM-DD, YYYYMMDD 둘 다 사용)
+    const weekDates = Array.from({ length: 7 }, (_, i) => ({
+        dash: baseDate.add(i, 'day').format('YYYY-MM-DD'),
+        nodash: baseDate.add(i, 'day').format('YYYYMMDD')
+    }));
 
-    try {
-        //행복기숙사
-        responce = await axios("http://dorm.deu.ac.kr/deu/food/getWeeklyMenu.kmc?locgbn=DE&sch_date=" + Korea_Date);
-        for (let main_index = 0; main_index < 1; main_index++) {
-            data = responce.data["root"][0].WEEKLYMENU[main_index];
-            for (let index = 1; index < 8; index++) {
-                json_temp.push({
-                    "Date": data["fo_date" + index],
-                    "breakfast": data["fo_menu_mor" + index],
-                    "lunch": data["fo_menu_lun" + index],
-                    "lunch_s": data["fo_sub_lun" + index],
-                    "dinner": data["fo_menu_eve" + index],
-                    "dinner_s": data["fo_sub_eve" + index],
-                })
+    let results = [];
 
+    for (const dateObj of weekDates) {
+        let json = {};
+
+        // 효민 기숙사
+        let hyomin_temp = [];
+        try {
+            const res = await axios("http://dorm.deu.ac.kr/hyomin/food/getWeeklyMenu.kmc?locgbn=DE&sch_date=" + dateObj.dash);
+            const data = res.data["root"][0].WEEKLYMENU[0];
+            for (let idx = 0; idx < 8; idx++) {
+                hyomin_temp.push({
+                    "Date": data["fo_date" + idx],
+                    "breakfast": data["fo_menu_mor" + idx],
+                    "lunch": data["fo_menu_lun" + idx],
+                    "dinner": data["fo_menu_eve" + idx]
+                });
             }
+        } catch (error) {
+            hyomin_temp.push({ "Date": "No data" });
         }
-    } catch (error) {
-        json_temp.push({
-            "Date": "No data",
-        })
+        json.hyomin = hyomin_temp;
+
+        // 행복기숙사
+        let happy_temp = [];
+        try {
+            const res = await axios("http://dorm.deu.ac.kr/deu/food/getWeeklyMenu.kmc?locgbn=DE&sch_date=" + dateObj.dash);
+            for (let main_idx = 0; main_idx < 1; main_idx++) {
+                const data = res.data["root"][0].WEEKLYMENU[main_idx];
+                for (let idx = 1; idx < 8; idx++) {
+                    happy_temp.push({
+                        "Date": data["fo_date" + idx],
+                        "breakfast": data["fo_menu_mor" + idx],
+                        "lunch": data["fo_menu_lun" + idx],
+                        "lunch_s": data["fo_sub_lun" + idx],
+                        "dinner": data["fo_menu_eve" + idx],
+                        "dinner_s": data["fo_sub_eve" + idx],
+                    });
+                }
+            }
+        } catch (error) {
+            happy_temp.push({ "Date": "No data" });
+        }
+        json.happy = happy_temp;
+
+        // 정보관
+        try {
+            const res = await axios("https://smart.deu.ac.kr/m/sel_dfood?date=" + dateObj.nodash + "&gubun2=2&gubun1=1");
+            if (JSON.stringify(res.data).indexOf("정보공학관") === -1) {
+                json.information = null;
+            } else {
+                json.information = res.data;
+            }
+        } catch (error) {
+            json.information = null;
+        }
+
+        // 수덕전
+        try {
+            const res = await axios("https://smart.deu.ac.kr/m/sel_dfood?date=" + dateObj.nodash + "&gubun2=1&gubun1=1");
+            if (JSON.stringify(res.data).indexOf("수덕전") === -1) {
+                json.suduck = null;
+            } else {
+                json.suduck = res.data;
+            }
+        } catch (error) {
+            json.suduck = null;
+        }
+
+        // 날짜 정보 추가
+        json.date = dateObj.dash;
+
+        // 결과 배열에 추가
+        results.push(json);
     }
-    json = Object.assign(json, { "happy": json_temp });
 
-    //초기화
-    json_temp = []
-
-    //시간 포맷변경
-    const Korea_Date1 = dayjs(new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" })).format('YYYYMMDD');
-
-    //정보관
-    responce = await axios("https://smart.deu.ac.kr/m/sel_dfood?date=" + Korea_Date1 + "&gubun2=2&gubun1=1");
-    if(JSON.stringify(responce.data).indexOf("정보공학관") == -1){
-        json = Object.assign(json, { "inforamtion": null})
-       
-    }else{
-        json = Object.assign(json, { "inforamtion": responce.data });
-    }
-    //수덕전
-    responce = await axios("https://smart.deu.ac.kr/m/sel_dfood?date=" + Korea_Date1 + "&gubun2=1&gubun1=1");
-    if(JSON.stringify(responce.data).indexOf("수덕전") == -1){
-        json = Object.assign(json, { "suduck": null})
-    }else{
-        json = Object.assign(json, { "suduck": responce.data });
-    }
-
-    fs.writeFileSync('./output/api.json', JSON.stringify(json), 'utf-8')
+    fs.writeFileSync('./output/api.json', JSON.stringify(results, null, 2), 'utf-8');
 }
 
-App()
+App();
