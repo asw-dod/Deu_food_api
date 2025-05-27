@@ -95,94 +95,10 @@
       "Date": "2025-06-01",
       "breakfast": "♥간편한조식♥ 즉석토스트 /  딸기잼 /씨리얼&우유 / 계란 / 신선한과일",
       "lunch": "꼬지없는소떡소떡 / 명엽채조림 / 양념깻잎쌈 / 북어해장국 / 쌀밥 / 포기김치",
-      "dinner": "생선커틀렛&타르타르 / 오리엔탈샐러드파스타 / 그린샐러드&오렌지망고드레싱 / 얼큰수제비국 / 쌀밥 / 포기김치"
+      "dinner": "생선커틀렛&타르타르 / 오리엔탈샐러드파스타 / 그린샐러드&키위드레싱 / 얼큰수제비국 / 쌀밥 / 포기김치"
     }
   ],
   "meals": [
-    {
-      "date": "2025-05-27",
-      "information": {
-        "정보공학관 코너1": [
-          {
-            "rk": null,
-            "menuDate": "2025-05-27",
-            "kioskName": "정보공학관 코너1",
-            "menuName": "치즈돈까스",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "정보공학관 코너3": [
-          {
-            "rk": null,
-            "menuDate": "2025-05-27",
-            "kioskName": "정보공학관 코너3",
-            "menuName": "라면",
-            "menuTime": "11:00 ~ 15:00"
-          },
-          {
-            "rk": null,
-            "menuDate": "2025-05-27",
-            "kioskName": "정보공학관 코너3",
-            "menuName": "라면밥",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "정보공학관 코너4": [
-          {
-            "rk": null,
-            "menuDate": "2025-05-27",
-            "kioskName": "정보공학관 코너4",
-            "menuName": "안동찜닭",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ]
-      },
-      "suduck": {
-        "수덕전 코너1": [
-          {
-            "rk": null,
-            "menuDate": "2025-05-27",
-            "kioskName": "수덕전 코너1",
-            "menuName": "천원의 아침밥",
-            "menuTime": "08:30 ~ 10:00"
-          }
-        ],
-        "수덕전 코너2": [
-          {
-            "rk": null,
-            "menuDate": "2025-05-27",
-            "kioskName": "수덕전 코너2",
-            "menuName": "고구마치즈돈까스",
-            "menuTime": "11:29 ~ 17:30"
-          }
-        ],
-        "수덕전 코너3": [
-          {
-            "rk": null,
-            "menuDate": "2025-05-27",
-            "kioskName": "수덕전 코너3",
-            "menuName": "메밀막국수",
-            "menuTime": "11:29 ~ 17:30"
-          }
-        ],
-        "수덕전 코너4": [
-          {
-            "rk": null,
-            "menuDate": "2025-05-27",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면*",
-            "menuTime": "11:29 ~ 17:30"
-          },
-          {
-            "rk": null,
-            "menuDate": "2025-05-27",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면밥*",
-            "menuTime": "11:29 ~ 17:30"
-          }
-        ]
-      }
-    },
     {
       "date": "2025-05-28",
       "information": {
@@ -447,6 +363,11 @@
     },
     {
       "date": "2025-06-02",
+      "information": null,
+      "suduck": null
+    },
+    {
+      "date": "2025-06-03",
       "information": null,
       "suduck": null
     }
