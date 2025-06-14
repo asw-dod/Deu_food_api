@@ -100,11 +100,6 @@
   ],
   "meals": [
     {
-      "date": "2025-06-14",
-      "information": null,
-      "suduck": null
-    },
-    {
       "date": "2025-06-15",
       "information": null,
       "suduck": null
@@ -528,6 +523,11 @@
           }
         ]
       }
+    },
+    {
+      "date": "2025-06-21",
+      "information": null,
+      "suduck": null
     }
   ]
 }
