@@ -73,7 +73,7 @@
       "Date": "2025-06-27",
       "breakfast": "통마늘간장불고기/오이무침 / 동원양반김/ 콩가루배추국 / 쌀밥 / 깍두기",
       "lunch": "강된장덮밥 / 야채튀김&깨간장/얼갈이무침 / 고추잎지 / 미역국 / 포기김치",
-      "dinner_s": "마라탕면 / 셀프 또띠아롤 / 오이무피클 / 추가밥/포기김치"
+      "dinner_s": "마라탕면 / 카라멜꽃빵 / 오이무피클 / 추가밥/포기김치"
     },
     {
       "Date": "2025-06-28",
@@ -89,37 +89,6 @@
     }
   ],
   "meals": [
-    {
-      "date": "2025-06-24",
-      "information": null,
-      "suduck": {
-        "수덕전 코너2": [
-          {
-            "rk": null,
-            "menuDate": "2025-06-24",
-            "kioskName": "수덕전 코너2",
-            "menuName": "제육김치덮밥",
-            "menuTime": "11:30 ~ 14:00"
-          }
-        ],
-        "수덕전 코너4": [
-          {
-            "rk": null,
-            "menuDate": "2025-06-24",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면*",
-            "menuTime": "11:30 ~ 14:00"
-          },
-          {
-            "rk": null,
-            "menuDate": "2025-06-24",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면밥*",
-            "menuTime": "11:30 ~ 14:00"
-          }
-        ]
-      }
-    },
     {
       "date": "2025-06-25",
       "information": null,
@@ -225,6 +194,11 @@
     },
     {
       "date": "2025-06-30",
+      "information": null,
+      "suduck": null
+    },
+    {
+      "date": "2025-07-01",
       "information": null,
       "suduck": null
     }
