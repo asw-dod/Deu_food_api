@@ -90,37 +90,6 @@
   ],
   "meals": [
     {
-      "date": "2025-07-25",
-      "information": null,
-      "suduck": {
-        "수덕전 코너2": [
-          {
-            "rk": null,
-            "menuDate": "2025-07-25",
-            "kioskName": "수덕전 코너2",
-            "menuName": "정식",
-            "menuTime": "11:30 ~ 14:00"
-          }
-        ],
-        "수덕전 코너4": [
-          {
-            "rk": null,
-            "menuDate": "2025-07-25",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면",
-            "menuTime": "11:00 ~ 15:00"
-          },
-          {
-            "rk": null,
-            "menuDate": "2025-07-25",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면밥",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ]
-      }
-    },
-    {
       "date": "2025-07-26",
       "information": null,
       "suduck": null
@@ -253,6 +222,11 @@
           }
         ]
       }
+    },
+    {
+      "date": "2025-08-01",
+      "information": null,
+      "suduck": null
     }
   ]
 }
