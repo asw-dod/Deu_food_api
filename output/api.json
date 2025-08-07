@@ -90,46 +90,6 @@
   ],
   "meals": [
     {
-      "date": "2025-08-07",
-      "information": null,
-      "suduck": {
-        "수덕전 코너2": [
-          {
-            "rk": null,
-            "menuDate": "2025-08-07",
-            "kioskName": "수덕전 코너2",
-            "menuName": "정식",
-            "menuTime": "11:30 ~ 14:00"
-          }
-        ],
-        "수덕전 코너3": [
-          {
-            "rk": null,
-            "menuDate": "2025-08-07",
-            "kioskName": "수덕전 코너3",
-            "menuName": "정식",
-            "menuTime": "11:30 ~ 14:00"
-          }
-        ],
-        "수덕전 코너4": [
-          {
-            "rk": null,
-            "menuDate": "2025-08-07",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면",
-            "menuTime": "11:30 ~ 14:00"
-          },
-          {
-            "rk": null,
-            "menuDate": "2025-08-07",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면밥",
-            "menuTime": "11:30 ~ 14:00"
-          }
-        ]
-      }
-    },
-    {
       "date": "2025-08-08",
       "information": null,
       "suduck": {
@@ -173,17 +133,126 @@
     {
       "date": "2025-08-11",
       "information": null,
-      "suduck": null
+      "suduck": {
+        "수덕전 코너2": [
+          {
+            "rk": null,
+            "menuDate": "2025-08-11",
+            "kioskName": "수덕전 코너2",
+            "menuName": "정식",
+            "menuTime": "11:30 ~ 14:00"
+          }
+        ],
+        "수덕전 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-08-11",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면",
+            "menuTime": "11:30 ~ 14:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-08-11",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면밥",
+            "menuTime": "11:30 ~ 14:00"
+          }
+        ]
+      }
     },
     {
       "date": "2025-08-12",
       "information": null,
-      "suduck": null
+      "suduck": {
+        "수덕전 코너2": [
+          {
+            "rk": null,
+            "menuDate": "2025-08-12",
+            "kioskName": "수덕전 코너2",
+            "menuName": "정식",
+            "menuTime": "11:30 ~ 14:00"
+          }
+        ],
+        "수덕전 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-08-12",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면",
+            "menuTime": "11:30 ~ 14:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-08-12",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면밥",
+            "menuTime": "11:30 ~ 14:00"
+          }
+        ]
+      }
     },
     {
       "date": "2025-08-13",
       "information": null,
-      "suduck": null
+      "suduck": {
+        "수덕전 코너2": [
+          {
+            "rk": null,
+            "menuDate": "2025-08-13",
+            "kioskName": "수덕전 코너2",
+            "menuName": "정식",
+            "menuTime": "11:30 ~ 14:00"
+          }
+        ],
+        "수덕전 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-08-13",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면",
+            "menuTime": "11:30 ~ 14:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-08-13",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면밥",
+            "menuTime": "11:30 ~ 14:00"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "information": null,
+      "suduck": {
+        "수덕전 코너2": [
+          {
+            "rk": null,
+            "menuDate": "2025-08-14",
+            "kioskName": "수덕전 코너2",
+            "menuName": "정식",
+            "menuTime": "11:30 ~ 14:00"
+          }
+        ],
+        "수덕전 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-08-14",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면",
+            "menuTime": "11:30 ~ 14:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-08-14",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면밥",
+            "menuTime": "11:30 ~ 14:00"
+          }
+        ]
+      }
     }
   ]
 }
