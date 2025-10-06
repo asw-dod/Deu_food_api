@@ -70,11 +70,6 @@
   ],
   "meals": [
     {
-      "date": "2025-10-06",
-      "information": null,
-      "suduck": null
-    },
-    {
       "date": "2025-10-07",
       "information": null,
       "suduck": null
@@ -102,6 +97,46 @@
     {
       "date": "2025-10-12",
       "information": null,
+      "suduck": null
+    },
+    {
+      "date": "2025-10-13",
+      "information": {
+        "정보공학관 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-10-13",
+            "kioskName": "정보공학관 코너1",
+            "menuName": "오므라이스&소시지",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-10-13",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-10-13",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-10-13",
+            "kioskName": "정보공학관 코너4",
+            "menuName": "치즈떡볶이&참치비빔밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      },
       "suduck": null
     }
   ]
