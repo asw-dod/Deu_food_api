@@ -70,11 +70,6 @@
   ],
   "meals": [
     {
-      "date": "2025-10-08",
-      "information": null,
-      "suduck": null
-    },
-    {
       "date": "2025-10-09",
       "information": null,
       "suduck": null
@@ -168,6 +163,46 @@
             "menuDate": "2025-10-14",
             "kioskName": "정보공학관 코너4",
             "menuName": "수육정식",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      },
+      "suduck": null
+    },
+    {
+      "date": "2025-10-15",
+      "information": {
+        "정보공학관 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-10-15",
+            "kioskName": "정보공학관 코너1",
+            "menuName": "중식볶음밥세트",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-10-15",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-10-15",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-10-15",
+            "kioskName": "정보공학관 코너4",
+            "menuName": "두루치기",
             "menuTime": "11:00 ~ 15:00"
           }
         ]
