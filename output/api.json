@@ -74,7 +74,7 @@
       "breakfast": "고추장메추리알조림/얼갈이겉절이/동원양반김/순두부찌개/쌀밥/포기김치",
       "lunch": "갈릭코다리강정/새콤김치비빔면/상추겉절이/소고기미역국/쌀밥/깍두기",
       "lunch_s": "스크램블김치볶음밥/상추겉절이/소고기미역국/깍두기",
-      "dinner": "중화덮밥/그린샐러드&오리엔탈/숙주나물/가쓰오우동장국/쌀밥/포기김치",
+      "dinner": "중화덮밥/그린샐러드&오리엔탈/숙주나물/가쓰오우동장국/유자차/포기김치",
       "dinner_s": "지코바st불닭덮밥 세트- 지코바st불닭덮밥/후르츠샐러드/미니우동/포기김치"
     },
     {
@@ -99,99 +99,6 @@
     }
   ],
   "meals": [
-    {
-      "date": "2025-11-20",
-      "information": {
-        "정보공학관 코너1": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-20",
-            "kioskName": "정보공학관 코너1",
-            "menuName": "불고기야채비빔밥",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "정보공학관 코너3": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-20",
-            "kioskName": "정보공학관 코너3",
-            "menuName": "라면",
-            "menuTime": "11:00 ~ 15:00"
-          },
-          {
-            "rk": null,
-            "menuDate": "2025-11-20",
-            "kioskName": "정보공학관 코너3",
-            "menuName": "라면밥",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "정보공학관 코너4": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-20",
-            "kioskName": "정보공학관 코너4",
-            "menuName": "돌솥알밥",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ]
-      },
-      "suduck": {
-        "수덕전 코너1": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-20",
-            "kioskName": "수덕전 코너1",
-            "menuName": "천원의 아침밥",
-            "menuTime": "08:30 ~ 10:00"
-          }
-        ],
-        "수덕전 코너2": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-20",
-            "kioskName": "수덕전 코너2",
-            "menuName": "삼겹살김치덮밥",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "수덕전 코너3": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-20",
-            "kioskName": "수덕전 코너3",
-            "menuName": "돌솥떡갈비비빔밥",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "수덕전 코너4": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-20",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면",
-            "menuTime": "11:00 ~ 15:00"
-          },
-          {
-            "rk": null,
-            "menuDate": "2025-11-20",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면밥",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "수덕전 코너5": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-20",
-            "kioskName": "수덕전 코너5",
-            "menuName": "우동(온)",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ]
-      }
-    },
     {
       "date": "2025-11-21",
       "information": {
@@ -297,17 +204,162 @@
     },
     {
       "date": "2025-11-24",
-      "information": null,
+      "information": {
+        "정보공학관 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-24",
+            "kioskName": "정보공학관 코너1",
+            "menuName": "스팸마요덮밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-24",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-11-24",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-24",
+            "kioskName": "정보공학관 코너4",
+            "menuName": "돈코츠라멘",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      },
       "suduck": null
     },
     {
       "date": "2025-11-25",
-      "information": null,
+      "information": {
+        "정보공학관 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-25",
+            "kioskName": "정보공학관 코너1",
+            "menuName": "계란볶음밥&자장면",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-25",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-11-25",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-25",
+            "kioskName": "정보공학관 코너4",
+            "menuName": "삼겹살비빔밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      },
       "suduck": null
     },
     {
       "date": "2025-11-26",
-      "information": null,
+      "information": {
+        "정보공학관 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-26",
+            "kioskName": "정보공학관 코너1",
+            "menuName": "닭갈비볶음밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-26",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-11-26",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-26",
+            "kioskName": "정보공학관 코너4",
+            "menuName": "순두부찌개",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      },
+      "suduck": null
+    },
+    {
+      "date": "2025-11-27",
+      "information": {
+        "정보공학관 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-27",
+            "kioskName": "정보공학관 코너1",
+            "menuName": "치즈돈까스",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-27",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-11-27",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-27",
+            "kioskName": "정보공학관 코너4",
+            "menuName": "돌솥떡갈비비빔밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      },
       "suduck": null
     }
   ]
