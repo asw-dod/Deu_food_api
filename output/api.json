@@ -100,99 +100,6 @@
   ],
   "meals": [
     {
-      "date": "2025-11-21",
-      "information": {
-        "정보공학관 코너1": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-21",
-            "kioskName": "정보공학관 코너1",
-            "menuName": "베이컨볶음밥&스파게티",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "정보공학관 코너3": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-21",
-            "kioskName": "정보공학관 코너3",
-            "menuName": "라면",
-            "menuTime": "11:00 ~ 15:00"
-          },
-          {
-            "rk": null,
-            "menuDate": "2025-11-21",
-            "kioskName": "정보공학관 코너3",
-            "menuName": "라면밥",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "정보공학관 코너4": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-21",
-            "kioskName": "정보공학관 코너4",
-            "menuName": "손만두백반*",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ]
-      },
-      "suduck": {
-        "수덕전 코너1": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-21",
-            "kioskName": "수덕전 코너1",
-            "menuName": "천원의 아침밥",
-            "menuTime": "08:30 ~ 10:00"
-          }
-        ],
-        "수덕전 코너2": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-21",
-            "kioskName": "수덕전 코너2",
-            "menuName": "중화비빔밥",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "수덕전 코너3": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-21",
-            "kioskName": "수덕전 코너3",
-            "menuName": "돈코츠라멘",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "수덕전 코너4": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-21",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면",
-            "menuTime": "11:00 ~ 15:00"
-          },
-          {
-            "rk": null,
-            "menuDate": "2025-11-21",
-            "kioskName": "수덕전 코너4",
-            "menuName": "라면밥",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ],
-        "수덕전 코너5": [
-          {
-            "rk": null,
-            "menuDate": "2025-11-21",
-            "kioskName": "수덕전 코너5",
-            "menuName": "우동(온)",
-            "menuTime": "11:00 ~ 15:00"
-          }
-        ]
-      }
-    },
-    {
       "date": "2025-11-22",
       "information": null,
       "suduck": null
@@ -240,7 +147,60 @@
           }
         ]
       },
-      "suduck": null
+      "suduck": {
+        "수덕전 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-24",
+            "kioskName": "수덕전 코너1",
+            "menuName": "천원의 아침밥",
+            "menuTime": "08:30 ~ 10:00"
+          }
+        ],
+        "수덕전 코너2": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-24",
+            "kioskName": "수덕전 코너2",
+            "menuName": "버터마늘볶음밥&치킨스테이크",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-24",
+            "kioskName": "수덕전 코너3",
+            "menuName": "콩나물불고기*",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-24",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-11-24",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너5": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-24",
+            "kioskName": "수덕전 코너5",
+            "menuName": "우동(온)",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      }
     },
     {
       "date": "2025-11-25",
@@ -280,7 +240,60 @@
           }
         ]
       },
-      "suduck": null
+      "suduck": {
+        "수덕전 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-25",
+            "kioskName": "수덕전 코너1",
+            "menuName": "천원의 아침밥",
+            "menuTime": "08:30 ~ 10:00"
+          }
+        ],
+        "수덕전 코너2": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-25",
+            "kioskName": "수덕전 코너2",
+            "menuName": "함박스테이크",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-25",
+            "kioskName": "수덕전 코너3",
+            "menuName": "뚝배기수육",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-25",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-11-25",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너5": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-25",
+            "kioskName": "수덕전 코너5",
+            "menuName": "우동(온)",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      }
     },
     {
       "date": "2025-11-26",
@@ -320,7 +333,60 @@
           }
         ]
       },
-      "suduck": null
+      "suduck": {
+        "수덕전 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-26",
+            "kioskName": "수덕전 코너1",
+            "menuName": "천원의 아침밥",
+            "menuTime": "08:30 ~ 10:00"
+          }
+        ],
+        "수덕전 코너2": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-26",
+            "kioskName": "수덕전 코너2",
+            "menuName": "제육김치덮밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-26",
+            "kioskName": "수덕전 코너3",
+            "menuName": "안동찜닭",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-26",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-11-26",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너5": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-26",
+            "kioskName": "수덕전 코너5",
+            "menuName": "우동(온)",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      }
     },
     {
       "date": "2025-11-27",
@@ -360,7 +426,153 @@
           }
         ]
       },
-      "suduck": null
+      "suduck": {
+        "수덕전 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-27",
+            "kioskName": "수덕전 코너1",
+            "menuName": "천원의 아침밥",
+            "menuTime": "08:30 ~ 10:00"
+          }
+        ],
+        "수덕전 코너2": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-27",
+            "kioskName": "수덕전 코너2",
+            "menuName": "김치볶음밥&핫도그",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-27",
+            "kioskName": "수덕전 코너3",
+            "menuName": "치즈떡볶이&참치비빔밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-27",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-11-27",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너5": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-27",
+            "kioskName": "수덕전 코너5",
+            "menuName": "우동(온)",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2025-11-28",
+      "information": {
+        "정보공학관 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-28",
+            "kioskName": "정보공학관 코너1",
+            "menuName": "파닭덮밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-28",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-11-28",
+            "kioskName": "정보공학관 코너3",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "정보공학관 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-28",
+            "kioskName": "정보공학관 코너4",
+            "menuName": "두루치기",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      },
+      "suduck": {
+        "수덕전 코너1": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-28",
+            "kioskName": "수덕전 코너1",
+            "menuName": "천원의 아침밥",
+            "menuTime": "08:30 ~ 10:00"
+          }
+        ],
+        "수덕전 코너2": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-28",
+            "kioskName": "수덕전 코너2",
+            "menuName": "치즈치킨까스",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너3": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-28",
+            "kioskName": "수덕전 코너3",
+            "menuName": "탄탄멘&밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너4": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-28",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면",
+            "menuTime": "11:00 ~ 15:00"
+          },
+          {
+            "rk": null,
+            "menuDate": "2025-11-28",
+            "kioskName": "수덕전 코너4",
+            "menuName": "라면밥",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ],
+        "수덕전 코너5": [
+          {
+            "rk": null,
+            "menuDate": "2025-11-28",
+            "kioskName": "수덕전 코너5",
+            "menuName": "우동(온)",
+            "menuTime": "11:00 ~ 15:00"
+          }
+        ]
+      }
     }
   ]
 }
