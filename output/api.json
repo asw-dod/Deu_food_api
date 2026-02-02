@@ -49,11 +49,6 @@
   ],
   "meals": [
     {
-      "date": "2026-02-02",
-      "information": null,
-      "suduck": null
-    },
-    {
       "date": "2026-02-03",
       "information": null,
       "suduck": null
@@ -80,6 +75,11 @@
     },
     {
       "date": "2026-02-08",
+      "information": null,
+      "suduck": null
+    },
+    {
+      "date": "2026-02-09",
       "information": null,
       "suduck": null
     }
