@@ -44,15 +44,11 @@
     {
       "Date": "2026-02-08",
       "breakfast": "♥간편한조식♥ 모닝빵 딸기잼 씨리얼&우유 계란 신선한과일",
-      "lunch": "생선커틀렛&타르타르 모듬콩자반 간장마늘종지 호박고추장찌개 쌀밥 포기김치"
+      "lunch": "생선커틀렛&타르타르 모듬콩자반 간장마늘종지 호박고추장찌개 쌀밥 포기김치",
+      "dinner": "★ 2/27 중식부터 운영 ★"
     }
   ],
   "meals": [
-    {
-      "date": "2026-02-04",
-      "information": null,
-      "suduck": null
-    },
     {
       "date": "2026-02-05",
       "information": null,
@@ -80,6 +76,11 @@
     },
     {
       "date": "2026-02-10",
+      "information": null,
+      "suduck": null
+    },
+    {
+      "date": "2026-02-11",
       "information": null,
       "suduck": null
     }
